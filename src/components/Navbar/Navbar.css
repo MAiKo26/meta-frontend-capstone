@@ -1,0 +1,47 @@
+.navbar {
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: white;
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 1;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,19 @@
+.cardcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% 0 3% 0;
+}
+
+.cardh {
+  width: 20%;
+  min-width: min-content;
+  background: whitesmoke;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}

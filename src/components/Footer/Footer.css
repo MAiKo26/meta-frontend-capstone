@@ -1,0 +1,21 @@
+.footercontainer {
+  background: white;
+  height: 300px;
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: yellow;
+}
+
+.logofooter {
+  width: auto;
+  height: 300px;
+}
+
+.footerp {
+  margin: 5%;
+  padding: 2%;
+  color: black;
+}

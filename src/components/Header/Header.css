@@ -1,0 +1,49 @@
+.headercontainer {
+  margin: 0;
+  background: #495e57;
+  height: 500px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.headercontainer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 10%;
+}
+h1 {
+  color: yellow;
+}
+P {
+  width: 90%;
+}
+#rat {
+  background: yellow;
+  border-radius: 20px;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+  margin-top: 10%;
+  align-self: left;
+  width: max-content;
+  font-size: 20px;
+}
+
+.br1 {
+  position: absolute;
+  left: 60%;
+  top: 30%;
+  width: 400px;
+  border-radius: 30px;
+  @media only screen and (max-width: 1000px) {
+    position: static;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+  }
+}
